@@ -28,5 +28,11 @@ namespace MovieApp
             Admin_Register ar = new Admin_Register();
             ar.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AddMovie am = new AddMovie();
+            am.Show();
+        }
     }
 }

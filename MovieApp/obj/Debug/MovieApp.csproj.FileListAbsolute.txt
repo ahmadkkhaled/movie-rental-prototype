@@ -9,3 +9,4 @@ c:\users\ahmed wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\ob
 C:\Users\Ahmed Wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.Admin_Login.resources
 C:\Users\Ahmed Wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.MainMenu.resources
 C:\Users\Ahmed Wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.Admin_Register.resources
+C:\Users\Ahmed Wessam\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.AddMovie.resources

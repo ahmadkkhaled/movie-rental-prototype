@@ -10,3 +10,16 @@ C:\Users\Ahmed Wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\ob
 C:\Users\Ahmed Wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.MainMenu.resources
 C:\Users\Ahmed Wessam\documents\visual studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.Admin_Register.resources
 C:\Users\Ahmed Wessam\Documents\Visual Studio 2013\Projects\MovieApp\MovieApp\obj\Debug\MovieApp.AddMovie.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\bin\Debug\MovieApp.exe.config
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\bin\Debug\MovieApp.exe
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\bin\Debug\MovieApp.pdb
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.csprojAssemblyReference.cache
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.AddMovie.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Admin_Login.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Admin_Register.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.MainMenu.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Properties.Resources.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.csproj.GenerateResource.cache
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.exe
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.pdb

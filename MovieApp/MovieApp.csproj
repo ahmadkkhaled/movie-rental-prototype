@@ -73,6 +73,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MovieRentalDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="MovieRentalDataSetKhaled.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MovieRentalDataSetKhaled.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddMovie.resx">
@@ -106,6 +111,17 @@
     </None>
     <None Include="MovieRentalDataSet.xss">
       <DependentUpon>MovieRentalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MovieRentalDataSetKhaled.xsc">
+      <DependentUpon>MovieRentalDataSetKhaled.xsd</DependentUpon>
+    </None>
+    <None Include="MovieRentalDataSetKhaled.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MovieRentalDataSetKhaled.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MovieRentalDataSetKhaled.xss">
+      <DependentUpon>MovieRentalDataSetKhaled.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

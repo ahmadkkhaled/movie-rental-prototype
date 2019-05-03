@@ -20,11 +20,11 @@ namespace MovieApp
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String username = username_tb.Text;
             String password = password_tb.Text;
-            SqlCommand command = new SqlCommand("SELECT * FROM Admin WHERE Username = @username AND password = @password", connection);
+            SqlCommand command = new SqlCommand("SELECT * FROM Admin WHERE Username = @username AND password = @password", connection); //TODO fix the case sensitive bug (sql-related)
             command.Parameters.AddWithValue("@username", username); /// TODO read how @ operator replaces ' ' and identifies different data types.
             command.Parameters.AddWithValue("@password", password);
             using (SqlDataReader reader = command.ExecuteReader())

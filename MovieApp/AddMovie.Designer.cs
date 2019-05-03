@@ -28,38 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.movName_tb = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.movDesc_tb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.movPrice_tb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.movPG_tb = new System.Windows.Forms.TextBox();
+            this.movDuration_tb = new System.Windows.Forms.TextBox();
             this.movPoster_tb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.movQuantity_tb = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.movCategory_cb = new System.Windows.Forms.ComboBox();
+            this.movAdd_button = new System.Windows.Forms.Button();
+            this.movYear_tb = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // movName_tb
             // 
-            this.textBox1.Location = new System.Drawing.Point(123, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(210, 20);
-            this.textBox1.TabIndex = 0;
+            this.movName_tb.Location = new System.Drawing.Point(123, 57);
+            this.movName_tb.Name = "movName_tb";
+            this.movName_tb.Size = new System.Drawing.Size(210, 20);
+            this.movName_tb.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 60);
+            this.label1.Location = new System.Drawing.Point(9, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 13);
             this.label1.TabIndex = 1;
@@ -68,19 +69,19 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 87);
+            this.label2.Location = new System.Drawing.Point(9, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Description";
             // 
-            // textBox2
+            // movDesc_tb
             // 
-            this.textBox2.Location = new System.Drawing.Point(123, 87);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(210, 54);
-            this.textBox2.TabIndex = 4;
+            this.movDesc_tb.Location = new System.Drawing.Point(123, 87);
+            this.movDesc_tb.Multiline = true;
+            this.movDesc_tb.Name = "movDesc_tb";
+            this.movDesc_tb.Size = new System.Drawing.Size(210, 54);
+            this.movDesc_tb.TabIndex = 4;
             // 
             // label3
             // 
@@ -91,24 +92,17 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Year";
             // 
-            // textBox3
+            // movPrice_tb
             // 
-            this.textBox3.Location = new System.Drawing.Point(123, 150);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(210, 20);
-            this.textBox3.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(123, 179);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(210, 20);
-            this.textBox4.TabIndex = 7;
+            this.movPrice_tb.Location = new System.Drawing.Point(123, 179);
+            this.movPrice_tb.Name = "movPrice_tb";
+            this.movPrice_tb.Size = new System.Drawing.Size(210, 20);
+            this.movPrice_tb.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 182);
+            this.label4.Location = new System.Drawing.Point(12, 182);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 8;
@@ -117,25 +111,25 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(16, 213);
+            this.label5.Location = new System.Drawing.Point(13, 213);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "PG Rating";
             // 
-            // textBox5
+            // movPG_tb
             // 
-            this.textBox5.Location = new System.Drawing.Point(123, 213);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(210, 20);
-            this.textBox5.TabIndex = 10;
+            this.movPG_tb.Location = new System.Drawing.Point(123, 213);
+            this.movPG_tb.Name = "movPG_tb";
+            this.movPG_tb.Size = new System.Drawing.Size(210, 20);
+            this.movPG_tb.TabIndex = 10;
             // 
-            // textBox6
+            // movDuration_tb
             // 
-            this.textBox6.Location = new System.Drawing.Point(123, 240);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(210, 20);
-            this.textBox6.TabIndex = 11;
+            this.movDuration_tb.Location = new System.Drawing.Point(123, 240);
+            this.movDuration_tb.Name = "movDuration_tb";
+            this.movDuration_tb.Size = new System.Drawing.Size(210, 20);
+            this.movDuration_tb.TabIndex = 11;
             // 
             // movPoster_tb
             // 
@@ -148,11 +142,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 247);
+            this.label6.Location = new System.Drawing.Point(12, 243);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 13);
+            this.label6.Size = new System.Drawing.Size(103, 13);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Duration";
+            this.label6.Text = "Duration (in minutes)";
             // 
             // button1
             // 
@@ -182,12 +176,12 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Initial quatntity";
             // 
-            // textBox8
+            // movQuantity_tb
             // 
-            this.textBox8.Location = new System.Drawing.Point(123, 303);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(210, 20);
-            this.textBox8.TabIndex = 17;
+            this.movQuantity_tb.Location = new System.Drawing.Point(123, 303);
+            this.movQuantity_tb.Name = "movQuantity_tb";
+            this.movQuantity_tb.Size = new System.Drawing.Size(210, 20);
+            this.movQuantity_tb.TabIndex = 17;
             // 
             // label9
             // 
@@ -200,36 +194,57 @@
             // 
             // movCategory_cb
             // 
+            this.movCategory_cb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.movCategory_cb.FormattingEnabled = true;
             this.movCategory_cb.Location = new System.Drawing.Point(123, 332);
             this.movCategory_cb.Name = "movCategory_cb";
+            this.movCategory_cb.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.movCategory_cb.Size = new System.Drawing.Size(210, 21);
             this.movCategory_cb.TabIndex = 19;
+            // 
+            // movAdd_button
+            // 
+            this.movAdd_button.Location = new System.Drawing.Point(257, 360);
+            this.movAdd_button.Name = "movAdd_button";
+            this.movAdd_button.Size = new System.Drawing.Size(75, 23);
+            this.movAdd_button.TabIndex = 20;
+            this.movAdd_button.Text = "Add";
+            this.movAdd_button.UseVisualStyleBackColor = true;
+            this.movAdd_button.Click += new System.EventHandler(this.MovAdd_button_Click);
+            // 
+            // movYear_tb
+            // 
+            this.movYear_tb.Location = new System.Drawing.Point(123, 150);
+            this.movYear_tb.Name = "movYear_tb";
+            this.movYear_tb.Size = new System.Drawing.Size(210, 20);
+            this.movYear_tb.TabIndex = 6;
             // 
             // AddMovie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(345, 398);
+            this.Controls.Add(this.movAdd_button);
             this.Controls.Add(this.movCategory_cb);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.movQuantity_tb);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.movPoster_tb);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.movDuration_tb);
+            this.Controls.Add(this.movPG_tb);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.movPrice_tb);
+            this.Controls.Add(this.movYear_tb);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.movDesc_tb);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.movName_tb);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "AddMovie";
             this.Text = "AddMovie";
             this.Load += new System.EventHandler(this.AddMovie_Load);
@@ -240,24 +255,25 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox movName_tb;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox movDesc_tb;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox movPrice_tb;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox movPG_tb;
+        private System.Windows.Forms.TextBox movDuration_tb;
         private System.Windows.Forms.TextBox movPoster_tb;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox movQuantity_tb;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox movCategory_cb;
+        private System.Windows.Forms.Button movAdd_button;
+        private System.Windows.Forms.TextBox movYear_tb;
     }
 }

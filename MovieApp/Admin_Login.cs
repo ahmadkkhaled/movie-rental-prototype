@@ -20,7 +20,7 @@ namespace MovieApp
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String username = username_tb.Text;
             String password = password_tb.Text;
@@ -34,9 +34,7 @@ namespace MovieApp
                 connection.Close();
                 int c = dt.Rows.Count;
                 if (c == 0)
-                {
                     MessageBox.Show("Wrong username or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
                 else
                 {
                     MainMenu mm = new MainMenu(username); 

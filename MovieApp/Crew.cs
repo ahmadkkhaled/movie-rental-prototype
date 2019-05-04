@@ -20,7 +20,7 @@ namespace MovieApp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-E94MIOU;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String name = name_tb.Text;
             SqlCommand command= new SqlCommand("Insert Into Crew(Name)Values(@Name)",connection);

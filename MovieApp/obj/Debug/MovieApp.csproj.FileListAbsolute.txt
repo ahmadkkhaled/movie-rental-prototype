@@ -39,3 +39,10 @@ C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-maste
 C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Crew.resources
 C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Form1.resources
 C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.MovieCatalog.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Category.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Crew.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.MovieCatalog.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Add_Customer.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Customer_List.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Movie_Rent.resources
+C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Show_Customer_log.resources

@@ -20,7 +20,7 @@ namespace MovieApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String username = admUsername_tb.Text;
             SqlCommand command = new SqlCommand("SELECT * FROM Admin WHERE Username = @username", connection);
@@ -29,8 +29,7 @@ namespace MovieApp
             {
                 DataTable dt = new DataTable();
                 dt.Load(reader);
-                int c = dt.Rows.Count; //TODO replace the counter with HasRows() function
-                if(c != 0)
+                if( dt.Rows.Count != 0)
                     MessageBox.Show("Admin with the same username already exists", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 else
                 {
@@ -48,15 +47,11 @@ namespace MovieApp
                     insertCommand.Parameters.AddWithValue("@birthdate", bd);
                     insertCommand.ExecuteNonQuery();
                     MessageBox.Show("Admin succssfully created");
-                    //this.Close();
+                    this.Close();
                 }
                 connection.Close();
             }
         }
 
-        private void admFirstName_tb_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -20,7 +20,9 @@ namespace MovieApp
 
         private void Customer_List_Load(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            customerList_lv.Items.Clear();
+            customerList_lv.Columns.Clear();
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             SqlCommand selectCommand = new SqlCommand(@"SELECT * FROM Customer", connection);
             using (SqlDataReader reader = selectCommand.ExecuteReader())
@@ -48,7 +50,7 @@ namespace MovieApp
         {
             if(customerList_lv.SelectedItems.Count > 0)
             {
-                SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+                SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
                 connection.Open();
                 int customerID = int.Parse(customerList_lv.SelectedItems[0].Text);
                 SqlCommand delete = new SqlCommand("DELETE FROM Customer WHERE CustomerID = @customerID", connection);
@@ -68,6 +70,13 @@ namespace MovieApp
                 Show_Customer_log csl = new Show_Customer_log(int.Parse(customerList_lv.SelectedItems[0].Text));
                 csl.Show();
             }
+        }
+
+        private void regCustomer_btn_Click(object sender, EventArgs e)
+        {
+            Add_Customer ac = new Add_Customer();
+            ac.Show();
+            ac.Closed += Customer_List_Load;
         }
     }
 }

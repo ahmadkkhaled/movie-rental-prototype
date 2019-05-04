@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MovieApp.exe" version="1.0.0.0" publicKeyToken="2b54da381e83ee7b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MovieApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MovieApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MovieApp.exe" size="292864">
+      <assemblyIdentity name="MovieApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f6xdV98jrPaz3vxzpDdbeCIEBFPDlNbeo7zaVDRRdyg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MovieApp.exe.config" size="779">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nAek9yim6G/D2ngB+uKlQU2wI5M8ObXLTWhm0FKKAEY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-7SO1TNO\Ahmed Wessam" issuerKeyHash="2d1aec4e6b8e751cb01a55360893315cf3ba4335" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wEcj9MNj5qWHSMOLJr00quXK8aOn4MdsbKMe1TjxI9Q=</DigestValue></Reference></SignedInfo><SignatureValue>BPVBElDJM421G33DZdktsL0uPHwaCoAfJshyKqhHBS42tb5p6N0PVJzMiBXQ2BubIIJH+5VxZ+9AKR1cty2xvqnoSQcX0x+ttemqUcbh7brj9sP2R3gkg0WYo9YPkSJnvENAWm5vL1bQn6EFx/GnK5aNTR8MiK/MZjbY+H61Mj4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tPr4KrMzhvXtWP679ONDCsaFiT0QfpqvBBzXXWtTcmsU8yMgv1qDN5ViXBxLdzsRShUySVOMc1Roby2AB4xNUtIjEkJo/HpABmznsWx4ylC8Ro+kUvUxPkhFjrXSqtHCBuU0yrDlIdk/5QOXVX2pk1M0yyXMGtdhGk4tL0dAZTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d423f138d51ea36c6cc7e0a7a3f1cae5aa34bd268bc34887a5e663c3f42347c0" Description="" Url=""><as:assemblyIdentity name="MovieApp.exe" version="1.0.0.0" publicKeyToken="2b54da381e83ee7b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-7SO1TNO\Ahmed Wessam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4AxxpI4dpq/egxqdaL7vXDK0cucnCiFImndb1noz+oU=</DigestValue></Reference></SignedInfo><SignatureValue>eCySQHgby8tsy0jQVdfL9aip7yn2ZnAfPZdvNfXX8x90TyJewfA6lA5i5MofILZ7juctOEHYbvOMOEcAKmdlbsl270SUO3+kk/PC2/aJPE4kB+xfOFn3dpq0PtPeskolwLij4Ypv/bpsKLh2rcLwFE2MwkK7AlGW5gSkYP9ilFs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tPr4KrMzhvXtWP679ONDCsaFiT0QfpqvBBzXXWtTcmsU8yMgv1qDN5ViXBxLdzsRShUySVOMc1Roby2AB4xNUtIjEkJo/HpABmznsWx4ylC8Ro+kUvUxPkhFjrXSqtHCBuU0yrDlIdk/5QOXVX2pk1M0yyXMGtdhGk4tL0dAZTk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQHcJIs0pc45ZK3e+p7Q37cTANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtADcAUwBPADEAVABOAE8AXABBAGgAbQBlAGQAIABXAGUAcwBzAGEAbTAeFw0xOTA1MDQyMTQzMTZaFw0yMDA1MDQwMzQzMTZaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0ANwBTAE8AMQBUAE4ATwBcAEEAaABtAGUAZAAgAFcAZQBzAHMAYQBtMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0+vgqszOG9e1Y/rv040MKxoWJPRB+mq8EHNdda1NyaxTzIyC/WoM3lWJcHEt3OxFKFTJJU4xzVGhvLYAHjE1S0iMSQmj8ekAGbOexbHjKULxGj6RS9TE+SEWOtdKq0cIG5TTKsOUh2T/lA5dVfamTUzTLJcwa12EaTi0vR0BlOQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJS6C6bfOB1COzS4xqtroL5uQawx69+gd2cInov43JhdYAGS2ZIW4u7w8vCM45GAMQJXO1fswX4yts4WyWsp1unHNAN32QtGEO3Vvpt3fTFgbQ6kkW/fYzQRI6c5xpQ993UvM0AgZVuJwNeUZYoUdStIdnMvVw9bOhBk0w0rgk1p</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -31,16 +31,17 @@
             this.customerList_lv = new System.Windows.Forms.ListView();
             this.delete_button = new System.Windows.Forms.Button();
             this.showLog_button = new System.Windows.Forms.Button();
+            this.regCustomer_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // customerList_lv
             // 
             this.customerList_lv.FullRowSelect = true;
             this.customerList_lv.GridLines = true;
-            this.customerList_lv.Location = new System.Drawing.Point(0, 36);
+            this.customerList_lv.Location = new System.Drawing.Point(12, 36);
             this.customerList_lv.MultiSelect = false;
             this.customerList_lv.Name = "customerList_lv";
-            this.customerList_lv.Size = new System.Drawing.Size(800, 414);
+            this.customerList_lv.Size = new System.Drawing.Size(788, 414);
             this.customerList_lv.TabIndex = 0;
             this.customerList_lv.UseCompatibleStateImageBehavior = false;
             this.customerList_lv.View = System.Windows.Forms.View.Details;
@@ -65,11 +66,22 @@
             this.showLog_button.UseVisualStyleBackColor = true;
             this.showLog_button.Click += new System.EventHandler(this.ShowLog_button_Click);
             // 
+            // regCustomer_btn
+            // 
+            this.regCustomer_btn.Location = new System.Drawing.Point(172, 7);
+            this.regCustomer_btn.Name = "regCustomer_btn";
+            this.regCustomer_btn.Size = new System.Drawing.Size(115, 23);
+            this.regCustomer_btn.TabIndex = 3;
+            this.regCustomer_btn.Text = "Register Customer";
+            this.regCustomer_btn.UseVisualStyleBackColor = true;
+            this.regCustomer_btn.Click += new System.EventHandler(this.regCustomer_btn_Click);
+            // 
             // Customer_List
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.regCustomer_btn);
             this.Controls.Add(this.showLog_button);
             this.Controls.Add(this.delete_button);
             this.Controls.Add(this.customerList_lv);
@@ -85,5 +97,6 @@
         private System.Windows.Forms.ListView customerList_lv;
         private System.Windows.Forms.Button delete_button;
         private System.Windows.Forms.Button showLog_button;
+        private System.Windows.Forms.Button regCustomer_btn;
     }
 }

@@ -12,10 +12,10 @@ namespace MovieApp
 {
     public partial class MainMenu : Form
     {
-        private String username;
-        public MainMenu(String ausername)
+        private int adminID;
+        public MainMenu(int aid)
         {
-            username = ausername;
+            adminID = aid;
             InitializeComponent();
         }
 
@@ -39,26 +39,15 @@ namespace MovieApp
 
         private void movieLog_btn_Click(object sender, EventArgs e)
         {
-            MovieCatalog mc = new MovieCatalog();
+            MovieCatalog mc = new MovieCatalog(adminID);
             mc.Show();
         }
 
-        private void AddCustomer_button_Click(object sender, EventArgs e)
-        {
-            Add_Customer ac = new Add_Customer();
-            ac.Show();
-        }
 
         private void Button5_Click(object sender, EventArgs e)
         {
             Customer_List cl = new Customer_List();
             cl.Show();
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            Movie_Rent mr = new Movie_Rent();
-            mr.Show();
         }
     }
 }

@@ -16,14 +16,16 @@ namespace MovieApp
         int movieID = 4;
         int adminID = 1;
         List<String> IDs = new List<String>();
-        public Movie_Rent()
+        public Movie_Rent(int mi, int ai)
         {
+            movieID = mi;
+            adminID = ai;
             InitializeComponent();
         }
 
         private void Movie_Rent_Load(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             SqlCommand command = new SqlCommand("SELECT * FROM Customer", connection);
             using (SqlDataReader reader = command.ExecuteReader())
@@ -43,7 +45,7 @@ namespace MovieApp
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             int selectedCustomerID = int.Parse(IDs[customerList_cb.SelectedIndex]);
             SqlCommand update = new SqlCommand("UPDATE Movie SET Quantity = Quantity-1 WHERE MovieID = @movieID", connection); //TODO replace Quantity+1 with Quantity-1

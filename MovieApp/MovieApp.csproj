@@ -8,9 +8,25 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MovieApp</RootNamespace>
-    <AssemblyName>MovieApp</AssemblyName>
+    <AssemblyName>Venus Movies</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +46,21 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9A97DC6FD558ECE5ECCFD76770DD2485AC9D4DE7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MovieApp_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Hydrattz-Multipurpose-Alphabet-Letter-V-blue.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -98,6 +129,12 @@
     <Compile Include="MovieCatalog.Designer.cs">
       <DependentUpon>MovieCatalog.cs</DependentUpon>
     </Compile>
+    <Compile Include="MovieDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieDetails.designer.cs">
+      <DependentUpon>MovieDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="MovieRentalDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -149,6 +186,9 @@
     <EmbeddedResource Include="MovieCatalog.resx">
       <DependentUpon>MovieCatalog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MovieDetails.resx">
+      <DependentUpon>MovieDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Movie_Rent.resx">
       <DependentUpon>Movie_Rent.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +204,7 @@
     <EmbeddedResource Include="Show_Customer_log.resx">
       <DependentUpon>Show_Customer_log.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MovieApp_TemporaryKey.pfx" />
     <None Include="MovieRentalDataSet.xsc">
       <DependentUpon>MovieRentalDataSet.xsd</DependentUpon>
     </None>
@@ -198,6 +239,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hydrattz-Multipurpose-Alphabet-Letter-V-blue.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

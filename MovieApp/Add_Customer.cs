@@ -20,7 +20,7 @@ namespace MovieApp
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String Name = cusName_tb.Text;
             String Username = cusUserName_tb.Text;
@@ -36,7 +36,6 @@ namespace MovieApp
                 {
                     DateTime bd = new DateTime(int.Parse(Year_cb.Text), int.Parse(Month_cb.Text), int.Parse(Day_cb.Text));
                     String Sex = sex_cb.Text;
-                    //TODO ensure customer with the same username hasn't been registered before
                     SqlCommand command = new SqlCommand("Insert Into Customer(Name , Username , Birthdate , Sex) Values(@Name , @Username , @Birthdate , @Sex)", connection);
                     command.Parameters.AddWithValue("@Name", Name);
                     command.Parameters.AddWithValue("@Username", Username);

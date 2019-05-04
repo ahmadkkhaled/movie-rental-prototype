@@ -28,10 +28,9 @@ namespace MovieApp
 
         private void AddMovie_Load(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             SqlCommand command = new SqlCommand("SELECT * FROM Category", connection);
-            //command.Parameters.AddWithValue("@username", username); /// TODO read how @ operator replaces ' ' and identifies different data types.
             using (SqlDataReader reader = command.ExecuteReader())
             {
                 DataTable dt = new DataTable();
@@ -49,7 +48,7 @@ namespace MovieApp
         private void MovAdd_button_Click(object sender, EventArgs e)
         {
             //NOTE: change connection string when updating the code on a different PC
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String Name = movName_tb.Text;
             String Description = movDesc_tb.Text;
@@ -63,12 +62,11 @@ namespace MovieApp
             String categoryID = ""; // must be initialized or code will not run.
             SqlCommand selectCommand = new SqlCommand("SELECT CategoryID FROM Category WHERE Name = @categoryName", connection);
             selectCommand.Parameters.AddWithValue("@categoryName", categoryName);
-            using (SqlDataReader reader = selectCommand.ExecuteReader()) // TODO fetch CategoryID directly from movCategory_cb
+            using (SqlDataReader reader = selectCommand.ExecuteReader()) 
             {
                 while (reader.Read())
                     categoryID = reader["CategoryID"].ToString();
                 reader.Close();
-
             }
             SqlCommand insertCommand = new SqlCommand("INSERT INTO Movie VALUES (@Name, @Description, @PG, @Price, @Duration, @posterPath, @Year, @Quantity, @categoryID)", connection);
             insertCommand.Parameters.AddWithValue("@Name", Name);
@@ -83,7 +81,7 @@ namespace MovieApp
             insertCommand.ExecuteNonQuery();
             connection.Close();
             MessageBox.Show("Movie Succssfully added!");
-            this.Hide();
+            this.Close();
         }
     }
 }

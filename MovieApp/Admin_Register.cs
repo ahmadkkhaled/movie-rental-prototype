@@ -20,7 +20,7 @@ namespace MovieApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String username = admUsername_tb.Text;
             SqlCommand command = new SqlCommand("SELECT * FROM Admin WHERE Username = @username", connection);
@@ -51,6 +51,11 @@ namespace MovieApp
                 }
                 connection.Close();
             }
+        }
+
+        private void admFirstName_tb_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

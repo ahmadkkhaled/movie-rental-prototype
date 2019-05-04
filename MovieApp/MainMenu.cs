@@ -31,8 +31,16 @@ namespace MovieApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            AddMovie am = new AddMovie();
-            am.Show();
+            //AddMovie am = new AddMovie();
+            //am.Show();
+            Category c = new Category();
+            c.Show();
+        }
+
+        private void movieLog_btn_Click(object sender, EventArgs e)
+        {
+            MovieCatalog mc = new MovieCatalog();
+            mc.Show();
         }
     }
 }

@@ -23,3 +23,19 @@ C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj
 C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
 C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.exe
 C:\Users\New\Desktop\FCI\Database\Project\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.pdb
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\bin\Debug\MovieApp.exe.config
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.exe
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.pdb
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\bin\Debug\MovieApp.exe
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\bin\Debug\MovieApp.pdb
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.csprojResolveAssemblyReference.cache
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.AddMovie.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Admin_Login.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Admin_Register.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.MainMenu.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Properties.Resources.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.csproj.GenerateResource.Cache
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Category.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Crew.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.Form1.resources
+C:\Users\Ahmed Wessam\Desktop\CSharp-Programming-master\CSharp-Programming-master\MovieApp\obj\Debug\MovieApp.MovieCatalog.resources

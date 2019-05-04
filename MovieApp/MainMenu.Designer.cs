@@ -33,7 +33,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.movieLog_btn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -84,14 +84,15 @@
             this.button5.Text = "Customer Log";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // movieLog_btn
             // 
-            this.button6.Location = new System.Drawing.Point(595, 234);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Movie Log";
-            this.button6.UseVisualStyleBackColor = true;
+            this.movieLog_btn.Location = new System.Drawing.Point(595, 234);
+            this.movieLog_btn.Name = "movieLog_btn";
+            this.movieLog_btn.Size = new System.Drawing.Size(75, 23);
+            this.movieLog_btn.TabIndex = 5;
+            this.movieLog_btn.Text = "Movie Log";
+            this.movieLog_btn.UseVisualStyleBackColor = true;
+            this.movieLog_btn.Click += new System.EventHandler(this.movieLog_btn_Click);
             // 
             // label1
             // 
@@ -108,7 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 278);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.movieLog_btn);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -129,7 +130,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button movieLog_btn;
         private System.Windows.Forms.Label label1;
     }
 }

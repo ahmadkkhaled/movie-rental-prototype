@@ -50,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 71);
+            this.label1.Location = new System.Drawing.Point(12, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 103);
+            this.label2.Location = new System.Drawing.Point(12, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(28, 136);
+            this.label3.Location = new System.Drawing.Point(12, 66);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 2;
@@ -77,7 +77,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 224);
+            this.label4.Location = new System.Drawing.Point(12, 145);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 13);
             this.label4.TabIndex = 3;
@@ -86,7 +86,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(28, 160);
+            this.label5.Location = new System.Drawing.Point(12, 93);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 13);
             this.label5.TabIndex = 4;
@@ -95,7 +95,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(28, 183);
+            this.label6.Location = new System.Drawing.Point(12, 119);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 13);
             this.label6.TabIndex = 5;
@@ -104,7 +104,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(28, 269);
+            this.label7.Location = new System.Drawing.Point(12, 171);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 13);
             this.label7.TabIndex = 6;
@@ -112,35 +112,35 @@
             // 
             // admUsername_tb
             // 
-            this.admUsername_tb.Location = new System.Drawing.Point(124, 71);
+            this.admUsername_tb.Location = new System.Drawing.Point(124, 12);
             this.admUsername_tb.Name = "admUsername_tb";
             this.admUsername_tb.Size = new System.Drawing.Size(132, 20);
             this.admUsername_tb.TabIndex = 7;
             // 
             // admPassword_tb
             // 
-            this.admPassword_tb.Location = new System.Drawing.Point(124, 95);
+            this.admPassword_tb.Location = new System.Drawing.Point(124, 38);
             this.admPassword_tb.Name = "admPassword_tb";
             this.admPassword_tb.Size = new System.Drawing.Size(132, 20);
             this.admPassword_tb.TabIndex = 8;
             // 
             // admFirstName_tb
             // 
-            this.admFirstName_tb.Location = new System.Drawing.Point(124, 152);
+            this.admFirstName_tb.Location = new System.Drawing.Point(124, 90);
             this.admFirstName_tb.Name = "admFirstName_tb";
             this.admFirstName_tb.Size = new System.Drawing.Size(132, 20);
             this.admFirstName_tb.TabIndex = 9;
             // 
             // admLastName_tb
             // 
-            this.admLastName_tb.Location = new System.Drawing.Point(124, 183);
+            this.admLastName_tb.Location = new System.Drawing.Point(124, 116);
             this.admLastName_tb.Name = "admLastName_tb";
             this.admLastName_tb.Size = new System.Drawing.Size(132, 20);
             this.admLastName_tb.TabIndex = 10;
             // 
             // admSalary_tb
             // 
-            this.admSalary_tb.Location = new System.Drawing.Point(124, 221);
+            this.admSalary_tb.Location = new System.Drawing.Point(124, 142);
             this.admSalary_tb.Name = "admSalary_tb";
             this.admSalary_tb.Size = new System.Drawing.Size(132, 20);
             this.admSalary_tb.TabIndex = 11;
@@ -155,14 +155,14 @@
             "Male",
             "Female",
             "Other"});
-            this.admSex_cb.Location = new System.Drawing.Point(124, 269);
+            this.admSex_cb.Location = new System.Drawing.Point(124, 168);
             this.admSex_cb.Name = "admSex_cb";
             this.admSex_cb.Size = new System.Drawing.Size(132, 21);
             this.admSex_cb.TabIndex = 12;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(393, 269);
+            this.button1.Location = new System.Drawing.Point(181, 195);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 13;
@@ -178,7 +178,7 @@
             "2001",
             "2000",
             "1999"});
-            this.admYear_cb.Location = new System.Drawing.Point(124, 128);
+            this.admYear_cb.Location = new System.Drawing.Point(124, 63);
             this.admYear_cb.Name = "admYear_cb";
             this.admYear_cb.Size = new System.Drawing.Size(48, 21);
             this.admYear_cb.TabIndex = 15;
@@ -191,7 +191,7 @@
             "12",
             "11",
             "10"});
-            this.admMonth_tb.Location = new System.Drawing.Point(178, 128);
+            this.admMonth_tb.Location = new System.Drawing.Point(178, 63);
             this.admMonth_tb.Name = "admMonth_tb";
             this.admMonth_tb.Size = new System.Drawing.Size(36, 21);
             this.admMonth_tb.TabIndex = 16;
@@ -208,7 +208,7 @@
             "5",
             "6",
             "7"});
-            this.admDay_cb.Location = new System.Drawing.Point(220, 128);
+            this.admDay_cb.Location = new System.Drawing.Point(220, 63);
             this.admDay_cb.Name = "admDay_cb";
             this.admDay_cb.Size = new System.Drawing.Size(36, 21);
             this.admDay_cb.TabIndex = 17;
@@ -217,7 +217,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 324);
+            this.ClientSize = new System.Drawing.Size(268, 226);
             this.Controls.Add(this.admDay_cb);
             this.Controls.Add(this.admMonth_tb);
             this.Controls.Add(this.admYear_cb);

@@ -18,16 +18,6 @@ namespace MovieApp
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -38,7 +28,7 @@ namespace MovieApp
 
         private void AddMovie_Load(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             SqlCommand command = new SqlCommand("SELECT * FROM Category", connection);
             //command.Parameters.AddWithValue("@username", username); /// TODO read how @ operator replaces ' ' and identifies different data types.
@@ -59,7 +49,7 @@ namespace MovieApp
         private void MovAdd_button_Click(object sender, EventArgs e)
         {
             //NOTE: change connection string when updating the code on a different PC
-            SqlConnection connection = new SqlConnection(@"Data Source=NEW-PC;Initial Catalog=MovieRental;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-7SO1TNO\SQLEXPRESS;Initial Catalog=MovieRental;Integrated Security=True");
             connection.Open();
             String Name = movName_tb.Text;
             String Description = movDesc_tb.Text;

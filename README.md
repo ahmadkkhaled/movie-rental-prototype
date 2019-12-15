@@ -1,0 +1,1 @@
+A GUI based system that enables a movie rental shop owner to rent movies for customers, issue receipts, add and view ratings and comments on movies, add new movies to the database, and track each customer’s activity with the system.
